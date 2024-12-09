@@ -30,6 +30,9 @@ margin-left: 45px;
 padding: 5px;
 
 }
+.hero-1-p3{
+    opacity: 0.5;
+}
 .hire-btn{
     background-color: orange;
     font-size: 10px;
@@ -133,7 +136,7 @@ padding-left: 150px;
 }
 .pragraph{
     width: 50%;
-
+opacity: 0.5;
 
 }
 .main-p{
@@ -147,6 +150,10 @@ padding-left: 150px;
    
   width: 55%;
  
+}
+
+.what-i-do p{
+    opacity: 0.5;
 }
 h6{
     margin-top: 50px;
@@ -202,24 +209,156 @@ background-size: contain;
     margin-left: 100px;
 }
 
+.c-p2{
+    opacity: 0.5;
+}
 
+
+
+/* ....resume-section */
+
+.resume-section{
+    height:850px;
+}
+.resume-main {
+    display: flex;
+   
+}
+.box, .box-2, .box-3 ,.box-4{
+    height: 175px;
+    width: 350px;
+}
+
+
+.resume-main{
+    display: flex;
+    justify-content: center;
+}
+.resume-header{
+    margin-top: 150px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.resume-part-1{
+    margin-right: 25px;
+}
+.resume-p-1{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.resume-p-2{
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.resume-p-3{
+    opacity: 0.5;
+}
+
+.part-1-header{
+    font-weight: 900;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 20px;
+   
+}
+hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+}
 
 /* footer */
-.logo-1{
-    height: 15px;
-    width: 15px;
-    background-image: url(../portfolio-resources/images/icons/facebook.png);
-    background-size: contain;
+.main-footer{
+    background-color: #FFF8F3;
+        height: 400px;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .logo-1{
+        height: 15px;
+        width: 15px;
+        background-image: url(../portfolio-resources/images/icons/facebook.png);
+        background-size: contain;
+      
+    }
+    .logo-2{
+        height: 15px;
+        width: 15px;
+        background-image: url(../portfolio-resources/images/icons/insta.png);
+        background-size: contain;
+        margin-left: 15px;
+    }
+    .logo-3{
+        height: 15px;
+        width: 15px;
+        background-image: url(../portfolio-resources/images/icons/twitter.png);
+        background-size: contain;
+        margin-left: 15px;
+    }
+    
+    .lets-contract{
+      margin-right: 25px;
+    }
+    .lets-contract-p-1,.lets-contract-p-1{
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .lets-contract-p-2{
+        margin-bottom: 15px;
+    }
+    .logo{
+        display: flex;
+    }
+
+    /* .lets-msg-me{
+        width: 45%;
+    } */
+.Message-me{
+    display: inline-block;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
 }
-.logo-2{
-    height: 15px;
-    width: 15px;
-    background-image: url(../portfolio-resources/images/icons/insta.png);
-    background-size: contain;
+.submit{
+    background-color: orange;
+    color: white;
+ padding: 10px 20px 10px 20px;
+    
+    font-size: 10px;
+    border: none;
+    border-radius: 3px;
 }
-.logo-3{
-    height: 15px;
-    width: 15px;
-    background-image: url(../portfolio-resources/images/icons/twitter.png);
-    background-size: contain;
+.input-margin{
+    margin-top: 10px;
+    margin-bottom: 10x;
+}
+
+/* .lets-contract-p-1{
+    font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 25px;
+} */
+
+.input-width {
+    display: inline-block;
+    width: 250px;
+    font-size: 12px;
+    border: none;
+    opacity: 0.8;
+}
+
+.input-height{
+    padding-left: 10px;
+    height: 25px;
+    display: inline-block;
 }
