@@ -13,9 +13,12 @@ header{
     height: 60px;
     display: flex;
     justify-content: space-around;
-border: 2px solid black;
+    border-radius: 3px;
+background-color: pink;
 align-items: center;
-
+position: fixed;
+top: 0;
+ width: 100%;
 
 }
 
@@ -23,12 +26,15 @@ align-items: center;
     display: flex;
     justify-content: space-evenly;
   
-    font-size: 10px;
+    font-size: 12px;
     align-items: center;
 gap: 20px;
 margin-left: 45px;
 padding: 5px;
 
+}
+a{
+    text-decoration: none;
 }
 .hero-1-p3{
     opacity: 0.5;
@@ -52,10 +58,10 @@ padding: 5px;
 .text{
     margin-left:20px;
     margin-right: 20px;
-    height:400px;
+    height:380px;
     width: 70px;
     background-image: url(../portfolio-resources/images/developer.png);
-    background-size: contain;
+    background-size: cover;
   background-repeat: no-repeat;
   font-size: 200px;
 }
@@ -89,10 +95,9 @@ padding: 5px;
 }
 .hero-main{
     height: 380px;
-    
     display: flex;
-   
-    align-items: center;
+   margin-bottom: 500px;
+    align-items: end;
 }
 .hero-part-1{
 padding-left: 150px;
@@ -128,7 +133,7 @@ padding-left: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 55px;
     margin-left: 100px;
     margin-right: 100px;
   
@@ -314,6 +319,7 @@ hr{
     }
     .lets-contract-p-2{
         margin-bottom: 15px;
+        opacity: 0.5;
     }
     .logo{
         display: flex;
